@@ -86,6 +86,8 @@
 
 - (void)facedetectWithImage:(UIImage *)image {
     
+    NSLog(@"%s",__func__);
+    
     NSDictionary *imageOptions =  [NSDictionary dictionaryWithObject:@(5) forKey:CIDetectorImageOrientation];
     CIImage *personciImage = [CIImage imageWithCGImage:image.CGImage];
     NSDictionary *opts = [NSDictionary dictionaryWithObject:
