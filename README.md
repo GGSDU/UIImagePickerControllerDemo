@@ -1,4 +1,3 @@
-# UIImagePickerControllerDemo
+# UIKitDemo
 
-## Project Introduction
-A Demo to use camera function with the iOS UIImagePickerController Class
+## 1.UIImagePickerControllerDemo
