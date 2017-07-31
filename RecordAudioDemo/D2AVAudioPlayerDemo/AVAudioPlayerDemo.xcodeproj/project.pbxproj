@@ -13,7 +13,6 @@
 		4E579E5A1ABBF68C006190EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E579E581ABBF68C006190EE /* Main.storyboard */; };
 		4E579E5C1ABBF68C006190EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E579E5B1ABBF68C006190EE /* Images.xcassets */; };
 		4E579E5F1ABBF68C006190EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E579E5D1ABBF68C006190EE /* LaunchScreen.xib */; };
-		4E579E6B1ABBF68C006190EE /* AVAudioPlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E579E6A1ABBF68C006190EE /* AVAudioPlayerDemoTests.m */; };
 		4E579E751ABBFBBA006190EE /* Beat It.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E579E741ABBFBBA006190EE /* Beat It.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +30,6 @@
 		4E579E4B1ABBF68C006190EE /* AVAudioPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVAudioPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E579E4F1ABBF68C006190EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E579E501ABBF68C006190EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4E579E521ABBF68C006190EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4E579E531ABBF68C006190EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4E579E551ABBF68C006190EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4E579E561ABBF68C006190EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -39,9 +37,8 @@
 		4E579E5B1ABBF68C006190EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4E579E5E1ABBF68C006190EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4E579E641ABBF68C006190EE /* AVAudioPlayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVAudioPlayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E579E691ABBF68C006190EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E579E6A1ABBF68C006190EE /* AVAudioPlayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVAudioPlayerDemoTests.m; sourceTree = "<group>"; };
 		4E579E741ABBFBBA006190EE /* Beat It.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beat It.mp3"; sourceTree = "<group>"; };
+		755055231F2EFD9100FFEE94 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				4E579E4D1ABBF68C006190EE /* AVAudioPlayerDemo */,
-				4E579E671ABBF68C006190EE /* AVAudioPlayerDemoTests */,
 				4E579E4C1ABBF68C006190EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				4E579E741ABBFBBA006190EE /* Beat It.mp3 */,
-				4E579E521ABBF68C006190EE /* AppDelegate.h */,
+				755055231F2EFD9100FFEE94 /* AppDelegate.h */,
 				4E579E531ABBF68C006190EE /* AppDelegate.m */,
 				4E579E551ABBF68C006190EE /* ViewController.h */,
 				4E579E561ABBF68C006190EE /* ViewController.m */,
@@ -101,23 +97,6 @@
 			children = (
 				4E579E4F1ABBF68C006190EE /* Info.plist */,
 				4E579E501ABBF68C006190EE /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4E579E671ABBF68C006190EE /* AVAudioPlayerDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				4E579E6A1ABBF68C006190EE /* AVAudioPlayerDemoTests.m */,
-				4E579E681ABBF68C006190EE /* Supporting Files */,
-			);
-			path = AVAudioPlayerDemoTests;
-			sourceTree = "<group>";
-		};
-		4E579E681ABBF68C006190EE /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4E579E691ABBF68C006190EE /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -233,7 +212,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E579E6B1ABBF68C006190EE /* AVAudioPlayerDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
