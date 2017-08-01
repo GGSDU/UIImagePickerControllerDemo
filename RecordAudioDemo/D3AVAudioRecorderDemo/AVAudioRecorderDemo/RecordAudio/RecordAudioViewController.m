@@ -6,15 +6,17 @@
 //  Copyright (c) 2015年 pk. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "RecordAudioViewController.h"
 #import <AVFoundation/AVFoundation.h>
 
 #import "UIButton+LZCategory.h"
-@interface ViewController ()
+@interface RecordAudioViewController ()
 {
     AVAudioRecorder *_recorder;
     AVAudioPlayer *_player;
 }
+
+@property (nonatomic,strong) UILabel *textLabel;
 
 @property (nonatomic,strong) UIView *controlView;
 @property (nonatomic,strong) UIButton *recordButton;
@@ -32,10 +34,16 @@
 
 @end
 
-@implementation ViewController
+@implementation RecordAudioViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.textLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 100, self.view.bounds.size.width, 20)];
+    self.textLabel.textAlignment = NSTextAlignmentCenter;
+    self.textLabel.font = [UIFont boldSystemFontOfSize:20];
+    self.textLabel.text = @"录制语言";
+    [self.view addSubview:self.textLabel];
 
     [self showRecordButton];
     
