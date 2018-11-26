@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data xmlns="product.xml">	
+	<product id="DB1" productName="多层实木复合柚木地板" typeName="实木复合地板" brand="KENTIER/肯帝亚" price="238">
+		<info id="1" label="产品详情">
+			<items name="特性01">product/imgs/DB1/trait/1.jpg</items>
+			<items name="特性02">product/imgs/DB1/trait/2.jpg</items>
+			<items name="特性03">product/imgs/DB1/trait/3.jpg</items>
+			<items name="特性04">product/imgs/DB1/trait/4.jpg</items>
+			<items name="特性05">product/imgs/DB1/trait/5.jpg</items>
+			<items name="特性06">product/imgs/DB1/trait/6.jpg</items>
+			<items name="特性07">product/imgs/DB1/trait/7.jpg</items>
+			<items name="特性08">product/imgs/DB1/trait/8.jpg</items>
+			<items name="特性09">product/imgs/DB1/trait/9.jpg</items>
+		</info>		
+	</product>
+
+	<product id="DB2" productName="肯帝亚15mm 强化复合地板" typeName="强化复合地板" brand="KENTIER/肯帝亚" price="59">
+		<info id="1" label="产品详情">
+			<items name="特性01">product/imgs/DB2/trait/1.jpg</items>
+			<items name="特性02">product/imgs/DB2/trait/2.jpg</items>
+			<items name="特性03">product/imgs/DB2/trait/3.jpg</items>
+			<items name="特性04">product/imgs/DB2/trait/4.jpg</items>
+			<items name="特性05">product/imgs/DB2/trait/5.jpg</items>
+			<items name="特性06">product/imgs/DB2/trait/6.jpg</items>
+			<items name="特性07">product/imgs/DB2/trait/7.jpg</items>
+			<items name="特性08">product/imgs/DB2/trait/8.jpg</items>
+			<items name="特性09">product/imgs/DB2/trait/9.jpg</items>
+			<items name="特性10">product/imgs/DB2/trait/10.jpg</items>
+		</info>		
+	</product>
+</data>

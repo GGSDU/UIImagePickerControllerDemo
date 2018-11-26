@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data xmlns="product.xml">	
+	<product id="DB3" productName="圣象强化复合木地板" typeName="强化复合地板" brand="圣象" price="5">
+		<info id="1" label="产品详情">
+			<item name="特性1">product/imgs/DB3/trait/1.jpg</item>
+			<item name="特性1">product/imgs/DB3/trait/2.jpg</item>
+			<item name="特性1">product/imgs/DB3/trait/3.jpg</item>
+		</info>		
+	</product>
+</data>

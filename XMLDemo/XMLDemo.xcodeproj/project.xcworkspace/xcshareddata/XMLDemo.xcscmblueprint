@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "12C38A9F209738D4E6622C36B068E4E5F75A6966",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "3591c5e8-e9a7-0410-8541-8ba97d4d9666++2756" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3591c5e8-e9a7-0410-8541-8ba97d4d9666++2756" : 0,
+    "12C38A9F209738D4E6622C36B068E4E5F75A6966" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A878662E-6692-4883-B5C8-168774DAAA7C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3591c5e8-e9a7-0410-8541-8ba97d4d9666++2756" : "02GitHub%20SVN%20Project\/XMLDemo\/XMLDemo\/XMLLibrary\/GDataXML\/",
+    "12C38A9F209738D4E6622C36B068E4E5F75A6966" : "02GitHub%20SVN%20Project\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "XMLDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "XMLDemo\/XMLDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Story5\/Story5-Repository.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "12C38A9F209738D4E6622C36B068E4E5F75A6966"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/172.18.8.55\/ios\/iPhone-PocoFood",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3591c5e8-e9a7-0410-8541-8ba97d4d9666++2756"
+    }
+  ]
+}
